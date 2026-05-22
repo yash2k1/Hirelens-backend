@@ -1,0 +1,94 @@
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+# =========================================================================
+# Target Build Directory (Never push compiled Java byte-code/jars)
+# =========================================================================
+target/
+*.jar
+*.war
+*.ear
+*.rar
+
+# =========================================================================
+# IDE Specific Configuration Artifacts (Keeps repo platform independent)
+# =========================================================================
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# Eclipse
+.metadata/
+.classpath
+.project
+.settings/
+*.launch
+
+# Visual Studio Code
+.vscode/
+
+# =========================================================================
+# OS / System Temporary Files
+# =========================================================================
+thumbtack.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+
+# =========================================================================
+# Credentials & Runtime Configuration (CRITICAL SECURITY SHIELD)
+# =========================================================================
+# Never push active secret keys or credentials to public servers
+application-prod.yml
+application-dev.yml
+*.env
+*.properties
+.data/
+
+# =========================================================================
+# Local Script Automation
+# =========================================================================
+Script.py
+chunk1.py
+chunk2.py
+chunk3.py
+chunk4.py
+chunk5.py
+chunk6.py
