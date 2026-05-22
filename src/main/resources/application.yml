@@ -6,9 +6,8 @@ spring:
     name: hirelens
 
   datasource:
-    url: jdbc:postgresql://localhost:5432/hirelens?sslmode=disable
-    username: postgres
-    password: 302519
+    url: jdbc:postgresql://localhost:5432/hirelens?options=-c%20TimeZone=Asia/Kolkata    username: postgres
+    password: postgres
     driver-class-name: org.postgresql.Driver
 
   jpa:
@@ -25,7 +24,7 @@ spring:
   data:
     redis:
       host: localhost
-      port: 5432
+      port: 6379
 
 gemini:
   api:
